@@ -1,16 +1,18 @@
 # i+°i — eye to eye
 
+> **Installer issue under investigation:** desktop R2 (0.1.1) can stop during installation with a “cannot be closed” message. It is currently not recommended for installation. A replacement is being prepared and requires an installation/upgrade test. See the [R2 issue notice](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011-r2).
+
 **Windows desktop is the primary evaluation program.** i+°i is David Glowalla's VRM character presentation and desktop overlay application. The name reads “eye to eye” and resembles two people talking. CCU is its internal development name.
 
 ![Desktop character presentation](desktop-character-presentation-20260721.png)
 
 ## Windows desktop evaluation
 
-Get the Windows x64 installer, release manifest and checksums from the [desktop alpha release](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011-r2). The installer supplies the application runtime; evaluators do not need Node.js or the private development source.
+Existing Windows x64 packages, release manifests and checksums remain available for traceability from the [desktop alpha release](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011-r2). The installer supplies the application runtime; evaluators do not need Node.js or the private development source.
 
 Explore character presentation, VRM loading, animation controls, backgrounds, camera/presentation modes and profiles. Use [DESKTOP-TESTING.md](DESKTOP-TESTING.md) to record what works on your PC and report remaining alpha bugs. Feature availability and behavior depend on the build, supplied assets and hardware.
 
-The installed application currently retains the development label **CCU Overlay** and version **0.1.1**. The release tag and SHA-256 identify this particular desktop snapshot. This is an unsigned evaluation alpha; code signing and broad device compatibility testing remain future work. The installer, application and desktop shortcut now use the official i+°i mark.
+The installed application currently retains the development label **CCU Overlay** and version **0.1.1**. The release tag and SHA-256 identify this particular desktop snapshot. This is an unsigned evaluation alpha; code signing and broad device compatibility testing remain future work. R2 uses an icon derived from a design sheet; the replacement will use the individual logo artwork and the official product name.
 
 ## Explore the desktop program
 
