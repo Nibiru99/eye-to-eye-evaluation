@@ -1,25 +1,37 @@
 # i+°i — eye to eye
 
-Android mobile alpha/demo for testing a VRM character presentation and overlay application by David Glowalla. The name reads “eye to eye” and resembles two people talking.
+**Windows desktop is the primary evaluation program.** i+°i is David Glowalla's VRM character presentation and desktop overlay application. The name reads “eye to eye” and resembles two people talking. CCU is its internal development name.
 
-This repository provides evaluation downloads, testing instructions and feedback tracking. Development source remains private. The alpha is functional according to the author and has remaining bugs; specific behavior depends on the build and device.
+![Desktop character presentation](desktop-character-presentation-20260721.png)
 
-## Android demo
+## Windows desktop evaluation
 
-Download the APK and SHA256SUMS.txt from [Releases](https://github.com/Nibiru99/eye-to-eye-evaluation/releases). The first staged demo is the existing build dated **2026-08-30**, labelled **mobile alpha/demo**, with embedded Android version `1.0` / code `1`. It is debug-signed, minimum API 24, target API 36.
+Get the Windows x64 installer, release manifest and checksums from the [desktop alpha release](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011). The installer supplies the application runtime; evaluators do not need Node.js or the private development source.
 
-The application label and package ID inside this existing APK retain the development name “CCU Overlay” and `com.utopiaagivity.ccuoverlay`. The product's official name is **i+°i**. This release does not rebuild or rename the installed application internally.
+Explore character presentation, VRM loading, animation controls, backgrounds, camera/presentation modes and profiles. Use [DESKTOP-TESTING.md](DESKTOP-TESTING.md) to record what works on your PC and report remaining alpha bugs. Feature availability and behavior depend on the build, supplied assets and hardware.
 
-See [TESTING.md](TESTING.md) for installation and test steps. The release checksum identifies the exact binary. Signature/archive checks have passed; this publication preparation did not perform a device functionality test.
+The installed application currently retains the development label **CCU Overlay** and version **0.1.0**. The release tag and SHA-256 identify this particular desktop snapshot. This is an unsigned evaluation alpha; signing and broad device compatibility testing remain future work.
 
-## Evaluate and give feedback
+## Examples
 
-Try the available functions and presentation modes, assess how it feels on your platform, and report remaining bugs or requested refinements through [Issues](https://github.com/Nibiru99/eye-to-eye-evaluation/issues). Include device model, Android version, build/hash and steps. Avoid sharing confidential platform details in public issues.
+![Desktop controls](desktop-controls-20260614.png)
 
-Companies can discuss platform integration, visual customization, function changes and production licensing directly with David Glowalla. A request or issue does not itself commission work or grant deployment rights.
+Historical desktop example, June 14, 2026: character and presentation controls.
 
-## Rights
+![Background and character example](desktop-background-example-20260528.png)
 
-The demo is intended for evaluation under the owner-approved LICENSE-EVAL.md supplied with each release. Production deployment, bundling, redistribution, source access and customization rights require a separately agreed scope or license. The pre-existing application remains owned by David Glowalla; bundled materials retain their applicable terms and attribution.
+Historical desktop example, May 28, 2026: another character and an author-generated background. The opening image is from July 21, 2026. These illustrate presentation possibilities; they are not a current-build acceptance test or a promise that pictured models/backgrounds are included. Example artwork and models retain their applicable rights.
 
-This is a curated demo distribution repository. Public availability of downloads does not make the application source open source.
+## Optional Android preview
+
+The [August 30 Android APK](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/mobile-alpha-20260830) is an **optional mobile alpha/demo**. It is a separate preview and does not replace the Windows desktop evaluation. See [TESTING.md](TESTING.md) for the mobile instructions. It retains the internal CCU Overlay label, is debug-signed and has remaining bugs.
+
+## Company evaluation and customization
+
+Individuals and organizations may evaluate designated binaries for **30 calendar days from first installation**, under [LICENSE-EVAL.md](LICENSE-EVAL.md). The time limit is contractual; the existing binaries have no automatic timed lock.
+
+Companies can discuss platform integration, colors, presentation design, function changes and production licensing with David Glowalla. Production/OEM use, redistribution, source access and modification require a separate written agreement. The pre-existing application remains his property; separately licensed components retain their terms.
+
+Report reproducible bugs and refinement requests through [Issues](https://github.com/Nibiru99/eye-to-eye-evaluation/issues), including build/hash, Windows version, GPU and steps. Keep confidential platform information out of public issues. A request does not itself commission work or grant deployment rights.
+
+This repository distributes evaluation binaries, documentation and examples. Development source remains private. Packaging does not guarantee protection against reverse engineering.
