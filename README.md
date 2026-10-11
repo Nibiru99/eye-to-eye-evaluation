@@ -6,11 +6,21 @@
 
 ## Windows desktop evaluation
 
-Get the Windows x64 installer, release manifest and checksums from the [desktop alpha release](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011). The installer supplies the application runtime; evaluators do not need Node.js or the private development source.
+Get the Windows x64 installer, release manifest and checksums from the [desktop alpha release](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011-r2). The installer supplies the application runtime; evaluators do not need Node.js or the private development source.
 
 Explore character presentation, VRM loading, animation controls, backgrounds, camera/presentation modes and profiles. Use [DESKTOP-TESTING.md](DESKTOP-TESTING.md) to record what works on your PC and report remaining alpha bugs. Feature availability and behavior depend on the build, supplied assets and hardware.
 
-The installed application currently retains the development label **CCU Overlay** and version **0.1.0**. The release tag and SHA-256 identify this particular desktop snapshot. This is an unsigned evaluation alpha; signing and broad device compatibility testing remain future work.
+The installed application currently retains the development label **CCU Overlay** and version **0.1.1**. The release tag and SHA-256 identify this particular desktop snapshot. This is an unsigned evaluation alpha; code signing and broad device compatibility testing remain future work. The installer, application and desktop shortcut now use the official i+°i mark.
+
+## Explore the desktop program
+
+- **Layered character presentation:** automatic camera movement and parallax backgrounds combine for a holographic-style visual effect. Transparent overlay, portrait/fullscreen and POV modes support different presentation setups.
+- **Single or dual VRM:** bundled female/male presets, custom VRM slots, two-character presentation and camera/eye-contact/organic gaze modes. Organic gaze follows speaking/listening state; optional audio input drives lip sync and talking reactions.
+- **Responsive character behavior:** blinking, breathing and expression controls, click/triple-click wink reactions, and managed standing, talking, sitting, reaction, spawn and idle/action animation categories.
+- **Customizable presentation:** background images and MP4 video textures, including 4K MP4 evaluation where codec/GPU performance permits. Profiles have thumbnails and save presentation settings; VRM and idle customization menus support personal setups and profile import/export.
+- **Experimental viewing modes:** Ocular VR stereo alpha, AR camera test and controller/gamepad interactions. These are alpha features with device-specific requirements, not certified headset/AR compatibility.
+
+The corrected desktop package includes six default VRMs, the geometric orb/menu artwork, official logos and the owner-confirmed main animation library. Original component and asset terms remain applicable. The gallery below shows author-selected historical examples.
 
 ## Examples
 
