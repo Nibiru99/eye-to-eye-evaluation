@@ -1,18 +1,18 @@
 # i+°i — eye to eye
 
-> **Installer issue under investigation:** desktop R2 (0.1.1) can stop during installation with a “cannot be closed” message. It is currently not recommended for installation. A replacement is being prepared and requires an installation/upgrade test. See the [R2 issue notice](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011-r2).
-
 **Windows desktop is the primary evaluation program.** i+°i is David Glowalla's VRM character presentation and desktop overlay application. The name reads “eye to eye” and resembles two people talking. CCU is its internal development name.
 
 ![Desktop character presentation](desktop-character-presentation-20260721.png)
 
 ## Windows desktop evaluation
 
-Existing Windows x64 packages, release manifests and checksums remain available for traceability from the [desktop alpha release](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011-r2). The installer supplies the application runtime; evaluators do not need Node.js or the private development source.
+Download the current **[Windows desktop alpha 0.1.4 (R6)](https://github.com/Nibiru99/eye-to-eye-evaluation/releases/tag/desktop-alpha-20261011-r6)**, together with its release manifest and SHA-256 checksum. The installer includes the application runtime, six default VRMs, geometric menu artwork and 41 managed animations; Node.js and development tools are unnecessary. Android remains an optional separate preview.
 
 Explore character presentation, VRM loading, animation controls, backgrounds, camera/presentation modes and profiles. Use [DESKTOP-TESTING.md](DESKTOP-TESTING.md) to record what works on your PC and report remaining alpha bugs. Feature availability and behavior depend on the build, supplied assets and hardware.
 
-The installed application currently retains the development label **CCU Overlay** and version **0.1.1**. The release tag and SHA-256 identify this particular desktop snapshot. This is an unsigned evaluation alpha; code signing and broad device compatibility testing remain future work. R2 uses an icon derived from a design sheet; the replacement will use the individual logo artwork and the official product name.
+The application is named **i+°i — eye to eye**. Setup offers folder selection and defaults fresh installation to **Program Files (x86)\i+°i**, with the official application/installer icons, desktop shortcut and an uninstaller in the installation folder. Windows administrator approval is required to install there. Existing profiles are retained. This is an unsigned evaluation alpha.
+
+The author successfully tested R6 installation and startup on the development PC; the installed application archive matches the tested package. Bundled model/graphic checks and managed-animation integrity checks passed. This does not establish exhaustive feature or hardware compatibility testing. Earlier desktop packages remain historical snapshots; R2 has a known installation issue and is superseded by R6.
 
 ## Explore the desktop program
 
